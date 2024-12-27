@@ -14,3 +14,6 @@ The site is developed using **React.js** and offers a user-friendly interface wi
 - **React.js**: For building the user interface and components.
 - **HTML & CSS**: For structuring and styling the site.
 - **JavaScript**: For implementing the logic and functionality.
+
+
+- ![Coaching App Screenshot](https://github.com/nurselidemir/coaching-website/raw/320a9318a8629481864d824e60d8a3c946b71c9b/screenshot.png)
