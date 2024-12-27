@@ -1,0 +1,108 @@
+.firstimage {
+    background-image: url('/public/2.jpg'); 
+    background-size: cover;          
+    background-position: center;      
+    background-repeat: no-repeat;    
+    height: 100vh;                    
+    position: relative;               
+    opacity: 0.85; 
+    
+}
+
+.firsttext {
+    white-space: nowrap;
+    position: absolute;              
+    top: 70px;                        
+    left: 50%;                        
+    transform: translateX(-50%);      
+    color: rgb(73, 34, 34);                    
+    font-size: 3rem;                   
+    padding: 2px;                     
+    font-family: 'Poppins', sans-serif; 
+}
+
+.secondtext {
+    white-space: nowrap;
+    position: absolute;               
+    top: 190px;                        
+    left: 50%;                         
+    transform: translateX(-50%);       
+    color: rgb(73, 34, 34);                  
+    font-size: 1.5rem;                   
+    padding: 4px;                     
+    font-family: 'Poppins', sans-serif; 
+}
+
+.secondpart{  
+    height: 50vh;                     
+    display: flex;
+    justify-content: center;         
+    text-align: center;
+    background-color: transparent;    
+    color: black;                    
+
+   
+
+}
+.aboutUsSection {
+    background-color: #FFF0F5;
+   font-size: 20px;
+    margin: 50px ; 
+    padding: 20px; 
+    padding-left: 150px;  
+    padding-right: 150px;
+    color: rgb(73, 34, 34);
+    border-radius: 12px;
+  }
+  
+  .aboutUsSection h1 {
+   
+    font-weight: 600; 
+    
+  }
+  
+  .aboutUsSection p {
+   
+    line-height: 1.6; 
+   
+    max-width: 800px; 
+    margin: 0 auto; 
+    text-align: left; 
+  }
+
+  
+html, body {
+  height: 100%; 
+  margin: 0; 
+  display: flex; 
+  flex-direction: column; 
+}
+
+
+.content {
+  flex: 1; 
+}
+
+.footer-navbar {
+  background-color: rgb(73, 34, 34); 
+  padding: 10px;
+  text-align: center;
+  font-size: 1rem;
+  color: whitesmoke;
+}
+
+.footer-navbar .footer-text {  
+  display: flex;        
+  justify-content: center;   
+  align-items: center;   
+}
+
+.footer-phone, .footer-email {
+  margin: 0 45px;
+  font-size: 1.4rem;
+}
+
+  
+  
+  
+  

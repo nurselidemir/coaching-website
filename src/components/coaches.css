@@ -1,0 +1,56 @@
+
+.coaches-container {
+   padding: 20px;  
+  background-color:rgb(73, 34, 34);
+  text-align: center;
+  margin-left: 10%; 
+  margin-right: 10%; 
+  margin-top: 50px; 
+  margin-bottom: 50px; 
+  border-radius: 10px;
+}
+
+.coaches-container h2 {
+  font-size: 2.5em;
+  color: #F0FFFF;
+}
+
+
+.coaches-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.coach-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.coach-image {
+    width: 150px;  
+    height: 150px; 
+    object-fit: cover;  
+    border-radius: 50%; 
+    margin-bottom: 10px; 
+  }
+  
+
+.coach-name {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.coach-role {
+  font-size: 1.2em;
+  color: #666;
+}
+
+
+  

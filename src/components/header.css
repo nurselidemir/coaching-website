@@ -1,0 +1,79 @@
+
+.header {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  padding: 10px;
+  background-color: #FFF0F5;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(73, 34, 34);
+}
+
+
+.header .logo h1 {
+  font-size: 2em;
+  margin: 0;
+
+}
+
+
+.navbar {
+  display: flex; 
+  justify-content: flex-end; 
+  width: 75%; 
+}
+.navbar ul {
+  display: flex; 
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.navbar ul li {
+  margin-right: 40px; 
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: rgb(73, 34, 34); 
+  font-size: 15px; 
+  font-weight: 600; 
+  transition: color 0.3s ease; 
+}
+
+.navbar ul li a:hover {
+  color: #007BFF; 
+}
+
+
+.header-buttons {
+  display: flex;
+  gap: 10px; 
+}
+
+.button_giris, .button_kaydol {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.button_giris {
+  background-color: rgb(73, 34, 34);
+  color: white;
+}
+
+.button_kaydol {
+  background-color: rgb(73, 34, 34);
+  color: white;
+}
+
+.button_giris:hover {    
+  background-color: rgb(170, 30, 30);
+}
+
+.button_kaydol:hover {     
+  background-color: rgb(170, 30, 30);
+}

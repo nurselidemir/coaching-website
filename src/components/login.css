@@ -1,0 +1,110 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+
+.giris-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.form-wrapper {
+  background-color: rgb(255, 255, 255);
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #333;
+}
+
+.form-group input:focus {
+  border-color:rgb(208, 28, 28);
+  outline: none;
+}
+
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background-color:rgb(73, 34, 34);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: rgb(73, 34, 34);
+}
+
+
+.alt-text {
+  margin-top: 20px;
+}
+
+.alt-text span {
+  color: #333;
+  font-size: 14px;
+}
+
+.alt-text .register-link {
+  background: none;
+  color: rgb(73, 34, 34);
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.alt-text .register-link:hover {
+  color: rgb(73, 34, 34);
+}
+
+
+
+.giris-gorsel {
+  width: 40%; 
+  padding: 20px;
+}
+
+.giris-gorsel img {
+  width: 100%; 
+  height: auto;
+  border-radius: 8px; 
+  object-fit: cover; 
+}
+
+
+
+
+

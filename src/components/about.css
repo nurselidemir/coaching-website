@@ -1,0 +1,29 @@
+
+
+.about-container {
+  padding: 40px;
+  background-color: #f9f9f9;
+  color: black;
+  font-size: 1.2em;
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+  
+
+
+
+.about-container h1 {
+  margin: 50px;
+  margin-bottom: 30px; 
+  padding: 36px;
+}
+
+
+.about-container p {
+  line-height: 2.5;
+  margin: 90px;
+  margin-top: 0; 
+  
+}
+
