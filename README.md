@@ -17,3 +17,4 @@ The site is developed using **React.js** and offers a user-friendly interface wi
 
 
 - ![Coaching App Screenshot](https://github.com/nurselidemir/coaching-website/raw/320a9318a8629481864d824e60d8a3c946b71c9b/screenshot.png)
+- ![Coaching App Screenshot](https://github.com/nurselidemir/coaching-website/raw/72ee06ff20099d87ae3fba5020b48094af2dd279/screenshot2.png)
